@@ -1,0 +1,591 @@
+/* GENERAL */
+body {
+  position: absolute;
+  width: 100%;
+  height: 4500px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
+}
+.mr {
+  margin-left: 110px;
+}
+.text {
+  text-align: left;
+  margin-left: 20px;
+}
+.title {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 49px;
+
+  color: #234cad;
+}
+.icon {
+  margin-top: 20px;
+  margin-left: 25px;
+}
+.font {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 29px;
+  color: #234cad !important;
+}
+.body_font {
+  margin-top: 25px;
+  margin-left: 100px;
+}
+
+.font_size {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: -10px;
+  line-height: 21px;
+
+  color: #234cad;
+}
+.font_size2 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  margin-left: -20px;
+  margin-bottom: -10px;
+  line-height: 21px;
+
+  color: #234cad;
+}
+/* NAVBAR */
+
+.nav-link {
+  color: #234cad !important;
+  margin-right: 80px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 29px;
+}
+.navbar {
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: none;
+}
+/* BUTTON */
+.btn_menu {
+  margin-left: -20px !important;
+}
+.btn {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+  color: #234cad;
+}
+.btn_bg {
+  box-sizing: border-box;
+  border: 2px solid #234cad;
+  border-radius: 25px;
+}
+.btn_su {
+  background: #f2f6ff;
+  border-radius: 25px;
+  margin-left: 25px;
+}
+
+.btn_body {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.bg_icon {
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  background: white;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 2px #234cad;
+}
+.img_ud {
+  background: rgb(242, 244, 248);
+  padding: 10px 15px 10px 15px;
+  margin-top: 5px;
+  border-radius: 100%;
+}
+.img_ud2 {
+  background: rgb(242, 244, 248);
+  border: 2px solid;
+  padding: 10px;
+  width: 50px;
+  margin: 25px 25px 30px 25px;
+  border-radius: 100%;
+}
+/* JUMBOTRON */
+
+.pos {
+  margin-left: 100px;
+  margin-top: 150px;
+}
+.time {
+  margin-left: 45px;
+}
+.ms {
+  margin-left: 390px !important;
+  margin-top: -240px !important;
+}
+.main_font {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  margin-left: 100px;
+  /* or 117% */
+  color: #234cad;
+}
+
+.bg_upload {
+  padding-right: 150px;
+  height: 100px;
+}
+.bg_upload2 {
+  height: 160px;
+  width: 130px;
+  margin-top: -50px;
+}
+.bg_date {
+  padding-top: 25px;
+  height: 160px;
+  width: 276px;
+  margin-top: -5px;
+  padding-left: -25px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  background: white;
+  box-sizing: border-box;
+  border: 2px #234cad;
+}
+.bg_chat {
+  margin-top: -55px;
+  padding-right: 150px;
+  height: 100px;
+}
+.bg_file {
+  margin-left: 360px;
+  margin-top: -80px;
+}
+.date {
+  display: flex;
+  margin-left: 20px;
+}
+.person {
+  display: flex;
+  margin-right: 5px;
+}
+.text_ej {
+  margin-left: 30px;
+}
+
+/* Features */
+.bg_feature1 {
+  margin-top: 100px;
+  background: #f2f6ff;
+  border-radius: 60px;
+  width: 100%;
+  height: 550px;
+  border-radius: 60px;
+  padding-top: 100px;
+  text-align: center;
+}
+.cont {
+  margin-top: 100px;
+}
+
+.pf2 {
+  text-align: center;
+}
+.upload2_pf2 {
+  margin-top: 5px;
+}
+.salesr_pf2 {
+  margin-top: 2px;
+}
+.pesanr_pf2 {
+  margin-top: 280px;
+  width: 320px;
+}
+.barisr_kiri{
+  left:-20px;
+}
+.pesanr2_pf2 {
+  margin-left: 250px;
+}
+.bg_iconpf2 {
+  /* border-radius: 20px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  background: white;
+  padding: 25px;
+  box-sizing: border-box;
+  border: 2px #234cad; */
+}
+.bg_iconf2 {
+  background: white;
+}
+.img_c {
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+/* About and Pricing */
+.bg_about {
+  background: #f2f6ff;
+  border-radius: 60px;
+  width: 100%;
+  height: 575px;
+  padding: 100px 80px 0px 80px;
+  text-align: center;
+}
+.row_in_bg_about {
+  width: 700px;
+}
+.border_about {
+  border: 2px solid;
+}
+.bg_date_about {
+  padding-top: 25px;
+  height: 160px;
+  width: 276px;
+  margin-top: -5px 0px 10px 0px;
+  padding-left: -25px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  background: white;
+  box-sizing: border-box;
+  border: 2px #234cad;
+}
+.bg_date_about {
+  padding-top: 25px;
+  height: 160px;
+  width: 276px;
+  margin-top: -5px 0px 10px 0px;
+  padding-left: -25px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  background: white;
+  box-sizing: border-box;
+  border: 2px #234cad;
+}
+.margin_about {
+  margin-left: 250px;
+  margin-top: 150px;
+}
+/* PRICING */
+.txt_p {
+  margin-top: 100px;
+  text-align: center;
+}
+.main_font_h4_p {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  /* or 117% */
+  color: #234cad;
+}
+.body_font_p_p {
+  margin-top: 25px;
+}
+.r_pricing {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.c_pricing {
+  border-radius: 60px;
+  margin: 50px 90px 0px 90px;
+}
+.main_font_pricing {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  /* or 117% */
+  color: #234cad;
+  background: #f2f6ff;
+  text-align: center;
+  border-radius: 60px;
+  padding: 40px 90px 40px 90px;
+}
+.main_font_pricing2 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  /* or 117% */
+  color: #234cad;
+  border: 4px solid;
+  background: white;
+  text-align: center;
+  border-radius: 60px;
+  padding: 40px 90px 40px 90px;
+}
+.btn_pricing {
+  background: white;
+  border-radius: 50px;
+  padding: 15px 50px 15px 50px;
+}
+.btn_pricing2 {
+  border: 3px solid;
+  background: white;
+  border-radius: 50px;
+  padding: 15px 50px 15px 50px;
+}
+.main_CN {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  /* or 117% */
+  color: #234cad;
+  background: #f2f6ff;
+  text-align: center;
+  border-radius: 60px;
+  margin-top: 70px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+/* Footer */
+.search_CN {
+  background: white;
+  border-radius: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+}
+.btn_CN {
+  margin-left: -60px;
+  background-color: #234cad;
+  border-radius: 12.5px;
+  height: 45px;
+  width: 45px;
+}
+.foot {
+  margin-top: 70px;
+  margin-left: 5px;
+  margin-right: auto;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.text_foot {
+  color: #234cad;
+}
+.foot_link {
+  font-size: 30px;
+}
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #234cad;
+    width: 50%;
+    margin: auto;
+    margin-bottom: -3px;
+  }
+  .jumbotron {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background: #f2f6ff;
+    border-radius: 60px;
+    width: 90%;
+    height: 575px;
+    border-radius: 60px;
+  }
+  .bg_feature1 {
+    margin-top: 100px;
+    margin-left: 100px;
+    background: #f2f6ff;
+    border-radius: 60px;
+    width: 90%;
+    height: 575px;
+    border-radius: 60px;
+    padding-top: 100px;
+    text-align: center;
+  }
+  .pesan_pf2 {
+    margin: 220px 0px 0px 130px;
+  }
+  .pesan2_pf2 {
+    margin: 20px 0px 0px 380px;
+  }
+  .col_pf2 {
+    padding-left: 0px;
+  }
+  .spencer_pf2 {
+    margin-top: -20px;
+  }
+  .row_pf2 {
+    margin-top: 15px;
+  }
+  .col2_pf2 {
+    margin-right: 15px;
+  }
+  .sales_pf2 {
+    margin-top: -20px;
+  }
+  .col3_pf2 {
+    margin-top: -3px;
+  }
+  .upload_pf2 {
+    height: 100px;
+    padding-right: 100px;
+  }
+  .anna_pf2 {
+    margin-top: 10px;
+  }
+  .upload2_pf2 {
+    margin-top: 10px;
+  }
+  .fontu_pf2 {
+    margin-left: 2px;
+  }
+  /* ABOUT */
+  .row_about {
+    margin: 150px 0px 0px 70px;
+  }
+  .col1_about {
+    margin: 100px 50px 100px 0px;
+    padding-right: 50px;
+  }
+  .bg_about {
+    background: #f2f6ff;
+    border-radius: 60px;
+    width: 90%;
+    height: 575px;
+    border-radius: 60px;
+    padding: 100px 0px 0px 100px;
+    text-align: center;
+  }
+
+  .bg_date_about {
+    padding-top: 25px;
+    height: 160px;
+    width: 276px;
+    margin-top: -5px 0px 10px 0px;
+    padding-left: -25px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background: white;
+    box-sizing: border-box;
+    border: 2px #234cad;
+  }
+  .row_in_bg_about {
+    width: 700px;
+  }
+  .bg_date_about {
+    padding-top: 25px;
+    height: 160px;
+    width: 276px;
+    margin-top: -5px 0px 10px 0px;
+    padding-left: -25px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background: white;
+    box-sizing: border-box;
+    border: 2px #234cad;
+  }
+  /* PRICING */
+  .txt_p {
+    margin-top: 100px;
+    text-align: center;
+  }
+  .main_font_h4_p {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    /* or 117% */
+    color: #234cad;
+  }
+  .body_font_p_p {
+    margin-top: 25px;
+  }
+  .r_pricing {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .c_pricing {
+    border-radius: 60px;
+    margin: auto
+  }
+  .main_font_pricing {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    /* or 117% */
+    color: #234cad;
+    background: #f2f6ff;
+    text-align: center;
+    border-radius: 60px;
+    padding: 40px 70px 40px 70px;
+  }
+  .main_font_pricing2 {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    /* or 117% */
+    color: #234cad;
+    border: 4px solid;
+    background: white;
+    text-align: center;
+    border-radius: 60px;
+    padding: 40px 70px 40px 70px;
+  }
+  .btn_pricing {
+    border: 3px solid;
+    background: white;
+    border-radius: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  /* Footer */
+  .main_CN {
+    padding: 30px 65px 30px 65px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .search_CN {
+    background: white;
+    border-radius: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+  }
+  .foot {
+    margin-left: 240px;
+    margin-right: 240px;
+  }
+}

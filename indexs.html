@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Start Up</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet" />
+    <script src="/js/hamburger.js"></script>
+</head>
+
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="hamburger">
+                <input type="checkbox">
+                <span id="span"></span>
+                <span id="span"></span>
+            </div>
+            <div class="collapse navbar-collapse font" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <form class="form-inline my-2 my-lg-0">
+                <button class="btn btn-outline-blue my-2 my-sm-0" type="submit">Login</button>
+                <button class="btn btn-bg-blue my-2 my-sm-0" type="submit">Sign Up</button>
+            </form>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <!-- Jumbotron -->
+        <div class="jumbotron">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-5 col-lg-5 col-md-6 col-sm-8">
+                        <h1 class="title-text">Business Communications Reinvented</h1>
+                        <p class="lead">Start communicating with your business team more efficiently with our app</p>
+                        <button class="btn btn-outline-blue mt-4">Get the app</button>
+                    </div>
+                    <div class="col-7 col-lg-7 col-md col-sm">
+                        <div class="ml-5">
+
+                            <!-- Files -->
+                            <div class="cards-img">
+                                <img src="/asset/icon/file.png" alt="file">
+                            </div>
+
+                            <!-- Uploading Document -->
+                            <div class="d-flex align-items-center">
+                                <div class="cards">
+                                    <div class="d-flex justify-content-around align-items-center">
+                                        <div class="cards-img">
+                                            <img src="/asset/icon/upload.png" alt="upload">
+                                        </div>
+                                        <div class="cards-text">
+                                            <h3 class="title-text">Uploading Document</h3>
+                                            <p class="lead">7,09 / 108,96 GB</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cards uploads text-center">
+                                    <div class="cards-img ">
+                                        <img src="/asset/icon/upload.png" alt="upload-load">
+                                    </div>
+                                    <div class="cards-text">
+                                        <p class="lead">1,73 / 3,09 GB</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Team Meeting -->
+                            <div class="d-flex align-items-start">
+                                <div class="cards team">
+                                    <div class="d-flex align-items-center">
+                                        <div class="cards-img">
+                                            <img src="/asset/icon/date.png" alt="team-meet">
+                                        </div>
+                                        <div class="cards-text">
+                                            <h3 class="title-text">Team Meeting</h3>
+                                            <p class="lead">2:30 PM 15 Apr 2020</p>
+                                        </div>
+                                    </div>
+                                    <div class="list-img d-flex">
+                                        <img src="/asset/icon/1.png" class="jm" alt="date1">
+                                        <img src="/asset/icon/2.png" class="img" alt="date2">
+                                        <img src="/asset/icon/3.png" class="img" alt="date3">
+                                        <img src="/asset/icon/4.png" class="img" alt="date4">
+                                    </div>
+                                </div>
+                                <div class="cards ana">
+                                    <div class="d-flex align-items-center">
+                                        <div class="cards-img">
+                                            <img src="/asset/icon/ab.png" alt="bubble-text">
+                                        </div>
+                                        <div class="cards-text">
+                                            <div class="d-flex justify-content-between">
+                                                <h3 class="title-text">Anna Brooks</h3>
+                                                <p class="lead">2:09 PM</p>
+                                            </div>
+                                            <p class="lead">Hi, how are you doing today?</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- js & ms -->
+                            <div class="d-flex">
+                                <div class="cards js">
+                                    <div class="d-flex align-items-center">
+                                        <div class="cards-img">
+                                            <img src="/asset/icon/js.png" alt="john-smith">
+                                        </div>
+                                        <div class="cards-text">
+                                            <div class="d-flex justify-content-between">
+                                                <h3 class="title-text">Anna Brooks</h3>
+                                                <p class="lead">2:09 PM</p>
+                                            </div>
+                                            <p class="lead">Hallo are you avaible fo a pro...</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="cards ms">
+                                    <div class="d-flex align-items-center">
+                                        <div class="cards-img">
+                                            <img src="/asset/icon/Shape.png" alt="bubble-text-saved">
+                                        </div>
+                                        <div class="cards-text">
+                                            <h3 class="title-text">Message Saved</h3>
+                                            <p class="lead">You have successfully saced this massage</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cards-img mes">
+                                <img src="/asset/icon/message.png" alt="message">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid cloud d-flex justify-content-around">
+            <div class="blok p-4">
+                <div class="d-flex align-items-center justify-content-evenly">
+                    <img src="./asset/icon/Cloud.png" height="100" width="100" alt="" />
+                    <div class="text">
+                        <p class="title-text">Cloud based</p>
+                        <p class="lead">All your messages are always backed up.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blok  p-4">
+                <div class="d-flex align-items-center justify-content-evenly">
+                    <img src="./asset/icon/Lock.png" height="100" width="100" alt="" />
+                    <div class="text">
+                        <p class="title-text">Secured</p>
+                        <p class="lead">All your messages are stored very securely.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section id="features">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-6 col-lg-6 col-md-6 col-sm-6">
+                        <div class="box">
+
+                            <!-- cards 1 -->
+                            <div class="card mt-3">
+                                <div class="d-flex align-items-center justify-content-around">
+                                    <img src="/asset/icon/js.png" alt="john-smith">
+                                    <div class="text w-75">
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="title-text">Anna Brooks</h3>
+                                            <p class="lead">1:03 PM</p>
+                                        </div>
+                                        <p class="lead">Hallo are you avaible fo a pro...</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- cards 2 -->
+                            <div class="card-c1 mt-3 mx-auto">
+                                <div class="d-flex align-items-center justify-content-around">
+                                    <img src="/asset/icon/js.png" alt="john-smith">
+                                    <div class="text w-75">
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="title-text">Daniel Luke</h3>
+                                            <p class="lead">5:27 AM</p>
+                                        </div>
+                                        <p class="lead">Would you like to have a meetin...</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- cards 3 -->
+                            <div class="card-c2 mt-3 mx-auto">
+                                <div class="d-flex align-items-center justify-content-around">
+                                    <img src="/asset/icon/js.png" alt="john-smith">
+                                    <div class="text w-75">
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="title-text">Mark Clarke</h3>
+                                            <p class="lead">2:08 AM</p>
+                                        </div>
+                                        <p class="lead">Tis was such a busy week i can...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-fea col-6 col-lg-6 col-md-6 col-sm-6">
+                        <h1 class="title-text">
+                            Use our app to send messages to your team
+                        </h1>
+                        <p class="lead">we offer really easy communication for all business from small to large</p>
+                        <a href="#" class="btn btn-outline-blue">Get the app</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-select text-center">
+                <h1 class="title-text">Transform your communications</h1>
+                <p class="lead mt-4">Our mobile app is the only thing you need to change the way you communicate with
+                    your team</p>
+            </div>
+
+            <div class="banner mt-5">
+                <div class="container-fluid">
+                    <div class="bg p-5">
+                        <!-- files & spencer brooks -->
+                        <div class="d-flex justify-content-center align-items-end">
+                            <div class="cards-img">
+                                <img src="/asset/icon/file.png" alt="file">
+                            </div>
+                            <div class="card">
+                                <div class="wrapper d-flex align-items-center justify-content-around">
+                                    <img src="/asset/icon/js.png" alt="john-smith">
+                                    <div class="text w-100">
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="title-text">Spencer Brooks</h3>
+                                            <p class="lead">3:08 PM</p>
+                                        </div>
+                                        <p class="lead">Have you seen the project requi…</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-start">
+                            <div class="cards">
+                                <div class="d-flex align-items-center">
+                                    <div class="cards-img">
+                                        <img src="/asset/icon/date.png" alt="team-meet">
+                                    </div>
+                                    <div class="cards-text">
+                                        <h3 class="title-text">Team Meeting</h3>
+                                        <p class="lead">2:30 PM 15 Apr 2020</p>
+                                    </div>
+                                </div>
+                                <div class="list-img d-flex">
+                                    <img src="/asset/icon/1.png" class="jm" alt="date1">
+                                    <img src="/asset/icon/2.png" class="img" alt="date2">
+                                    <img src="/asset/icon/3.png" class="img" alt="date3">
+                                    <img src="/asset/icon/4.png" class="img" alt="date4">
+                                </div>
+                            </div>
+                            <div class="cards p-">
+                                <div class="d-flex justify-content-around align-items-center">
+                                    <div class="cards-img">
+                                        <img src="/asset/icon/upload.png" alt="upload">
+                                    </div>
+                                    <div class="cards-text">
+                                        <h3 class="title-text">Uploading Document</h3>
+                                        <p class="lead">7,09 / 108,96 GB</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-start">
+                            <div class="card">
+                                <div class="d-flex align-items-center justify-content-around">
+                                    <img src="/asset/icon/js.png" alt="john-smith">
+                                    <div class="text w-75">
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="title-text">Anna Brooks</h3>
+                                            <p class="lead">1:03 PM</p>
+                                        </div>
+                                        <p class="lead">Hallo are you avaible fo a pro...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="d-flex align-items-center justify-content-around">
+                                    <img src="/asset/icon/js.png" alt="john-smith">
+                                    <div class="text w-75">
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="title-text">Anna Brooks</h3>
+                                            <p class="lead">1:03 PM</p>
+                                        </div>
+                                        <p class="lead">Hallo are you avaible fo a pro...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-start">
+                            <div class="cards-img mes">
+                                <img src="/asset/icon/message.png" alt="message">
+                            </div>
+                            <div class="cards uploads text-center">
+                                <div class="cards-img ">
+                                    <img src="/asset/icon/upload.png" alt="upload-load">
+                                </div>
+                                <div class="cards-text">
+                                    <p class="lead">1,73 / 3,09 GB</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Increase the efficency -->
+            <div class="increase p-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <h1 class="title-text">Increase the efficeincy within your company</h1>
+                            <div class="lead">Our app is the great way for you to start getting more tasks done.</div>
+                            <button class="btn btn-outline-blue">Get the app</button>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="bg p-4">
+                                <div class="flex-list">
+                                    <!-- 1 -->
+                                    <div class="d-flex">
+                                        <div class="cards">
+                                            <div class="d-flex align-items-center">
+                                                <div class="cards-img">
+                                                    <img src="/asset/icon/date.png" alt="team-meet">
+                                                </div>
+                                                <div class="cards-text">
+                                                    <h3 class="title-text">Team Meeting</h3>
+                                                    <p class="lead">2:30 PM 15 Apr 2020</p>
+                                                </div>
+                                            </div>
+                                            <div class="list-img d-flex">
+                                                <img src="/asset/icon/1.png" class="jm" alt="date1">
+                                                <img src="/asset/icon/2.png" class="img" alt="date2">
+                                                <img src="/asset/icon/3.png" class="img" alt="date3">
+                                                <img src="/asset/icon/4.png" class="img" alt="date4">
+                                            </div>
+                                        </div>
+                                        <div class="cards">
+                                            <div class="d-flex align-items-center">
+                                                <div class="cards-img">
+                                                    <img src="/asset/icon/date.png" alt="team-meet">
+                                                </div>
+                                                <div class="cards-text">
+                                                    <h3 class="title-text">Team Meeting</h3>
+                                                    <p class="lead">2:30 PM 15 Apr 2020</p>
+                                                </div>
+                                            </div>
+                                            <div class="list-img d-flex">
+                                                <img src="/asset/icon/1.png" class="jm" alt="date1">
+                                                <img src="/asset/icon/2.png" class="img" alt="date2">
+                                                <img src="/asset/icon/3.png" class="img" alt="date3">
+                                                <img src="/asset/icon/4.png" class="img" alt="date4">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 2 -->
+                                    <div class="d-flex">
+                                        <div class="cards">
+                                            <div class="d-flex align-items-center">
+                                                <div class="cards-img">
+                                                    <img src="/asset/icon/date.png" alt="team-meet">
+                                                </div>
+                                                <div class="cards-text">
+                                                    <h3 class="title-text">Team Meeting</h3>
+                                                    <p class="lead">2:30 PM 15 Apr 2020</p>
+                                                </div>
+                                            </div>
+                                            <div class="list-img d-flex">
+                                                <img src="/asset/icon/1.png" class="jm" alt="date1">
+                                                <img src="/asset/icon/2.png" class="img" alt="date2">
+                                                <img src="/asset/icon/3.png" class="img" alt="date3">
+                                                <img src="/asset/icon/4.png" class="img" alt="date4">
+                                            </div>
+                                        </div>
+                                        <div class="cards">
+                                            <div class="d-flex align-items-center">
+                                                <div class="cards-img">
+                                                    <img src="/asset/icon/date.png" alt="team-meet">
+                                                </div>
+                                                <div class="cards-text">
+                                                    <h3 class="title-text">Team Meeting</h3>
+                                                    <p class="lead">2:30 PM 15 Apr 2020</p>
+                                                </div>
+                                            </div>
+                                            <div class="list-img d-flex">
+                                                <img src="/asset/icon/1.png" class="jm" alt="date1">
+                                                <img src="/asset/icon/2.png" class="img" alt="date2">
+                                                <img src="/asset/icon/3.png" class="img" alt="date3">
+                                                <img src="/asset/icon/4.png" class="img" alt="date4">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 3 -->
+                                    <div class="d-flex">
+                                        <div class="cards">
+                                            <div class="d-flex align-items-center">
+                                                <div class="cards-img">
+                                                    <img src="/asset/icon/date.png" alt="team-meet">
+                                                </div>
+                                                <div class="cards-text">
+                                                    <h3 class="title-text">Team Meeting</h3>
+                                                    <p class="lead">2:30 PM 15 Apr 2020</p>
+                                                </div>
+                                            </div>
+                                            <div class="list-img d-flex">
+                                                <img src="/asset/icon/1.png" class="jm" alt="date1">
+                                                <img src="/asset/icon/2.png" class="img" alt="date2">
+                                                <img src="/asset/icon/3.png" class="img" alt="date3">
+                                                <img src="/asset/icon/4.png" class="img" alt="date4">
+                                            </div>
+                                        </div>
+                                        <div class="cards">
+                                            <div class="d-flex align-items-center">
+                                                <div class="cards-img">
+                                                    <img src="/asset/icon/date.png" alt="team-meet">
+                                                </div>
+                                                <div class="cards-text">
+                                                    <h3 class="title-text">Team Meeting</h3>
+                                                    <p class="lead">2:30 PM 15 Apr 2020</p>
+                                                </div>
+                                            </div>
+                                            <div class="list-img d-flex">
+                                                <img src="/asset/icon/1.png" class="jm" alt="date1">
+                                                <img src="/asset/icon/2.png" class="img" alt="date2">
+                                                <img src="/asset/icon/3.png" class="img" alt="date3">
+                                                <img src="/asset/icon/4.png" class="img" alt="date4">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="produk">
+            <div class="text-group text-center">
+                <h1 class="title-text">Explore our simple pricing</h1>
+                <p class="lead w-25 mx-auto">We offer one of the most competitive prices on the market for everyone.</p>
+            </div>
+            
+            <div class="container">
+                <div class="list-card mt-5">
+                    <!-- 1 -->
+                    <div class="card-grid">
+                        <p class="lead">Basic</p>
+                        <h1 class="title-text">$9</h1>
+                        <p class="lead">Per Month</p>
+                        <button class="btn btn-bg-white">Learn more</button>
+                    </div>
+                    <!-- 2 -->
+                    <div class="card-grid outline">
+                        <p class="lead">Basic</p>
+                        <h1 class="title-text">$9</h1>
+                        <p class="lead">Per Month</p>
+                        <button class="btn btn-outline-blue">Get Started</button>
+                    </div>
+                    <!-- 3 -->
+                    <div class="card-grid">
+                        <p class="lead">Basic</p>
+                        <h1 class="title-text">$9</h1>
+                        <p class="lead">Per Month</p>
+                        <button class="btn btn-bg-white">Learn more</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+
+    </footer>
+</body>
+
+</html>
